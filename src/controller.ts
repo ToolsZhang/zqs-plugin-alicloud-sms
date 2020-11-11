@@ -180,7 +180,7 @@ export class Controller {
 
       if (!correct) throw Boom.badData(this.config.reset.errors.invalidCode);
 
-      let auth = await AuthModel.findOne({
+      const auth = await AuthModel.findOne({
         username: ctx.request.fields.username,
       }).exec();
       if (!auth) throw Boom.badData(this.config.errors.usernameNotFound);

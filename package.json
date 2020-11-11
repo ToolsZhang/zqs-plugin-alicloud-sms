@@ -29,17 +29,17 @@
     "watch:test": "jest --watch"
   },
   "dependencies": {
-    "ali-sms": "1.0.3"
+    "ali-sms": "1.0.3",
+    "zqs-core": "0.0.2",
+    "moment": "^2.18.1",
+    "colors": "^1.1.2"
   },
   "devDependencies": {
     "@types/jest": "^20.0.5",
     "@types/node": "^8.0.0",
-    "zqs-core": "0.0.2",
-    "colors": "^1.1.2",
     "coveralls": "^3.1.0",
     "jest": "^20.0.4",
     "jest-environment-node-debug": "^2.0.0",
-    "moment": "^2.18.1",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^25.1.0",
