@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "ali-sms": "1.0.3",
-    "zqs-core": "0.0.2",
+    "zqs-core": "^0.0.4",
     "moment": "^2.18.1",
     "colors": "^1.1.2"
   },
