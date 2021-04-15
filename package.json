@@ -1,6 +1,6 @@
 {
   "name": "zqs-plugin-alicloud-sms",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "zqs-plugin-alicloud-sms",
   "license": "MIT",
   "repository": "git+https://github.com/ToolsZhang/zqs-plugin-alicloud-sms.git",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "ali-sms": "1.0.3",
-    "zqs-core": "^0.0.6",
+    "zqs-core": "^0.0.9",
     "moment": "^2.18.1",
     "colors": "^1.1.2"
   },
